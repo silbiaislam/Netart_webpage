@@ -1,16 +1,16 @@
-import React from 'react';
-import { Component } from 'react';
 import './App.css';
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import Header from "../../netart_webpage/src/Components/Header";
+import Header from './components/Header';
+import Body from './components/Body';
+import Footer from './components/Footer';
 
-const App = () => {
-  return (
-    <>
-      <Header />
-    </>
-  );
-};
+function App() {
+    return (
+        <div className="App">
+            <Header />
+            <Body />
+            <Footer />
+        </div>
+    );
+}
 
 export default App;

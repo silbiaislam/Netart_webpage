@@ -1,0 +1,93 @@
+body {
+  background-image: linear-gradient(white, rgb(255, 255, 0));
+  background-repeat: repeat-x;
+  height: auto;
+}
+
+.logoimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+}
+
+.section-1 .flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-1 .flex-container > div {
+  width: 47%;
+  margin: 0.5px;
+  line-height: 16px;
+  align-content: space-around;
+}
+
+.section-1 .flex-container .paragraph .right .top-line {
+  padding: 1rem 0 0 0;
+  font-weight: bolder;
+}
+
+.trophyimage {
+  display: block;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  float: left;
+  height: 750px;
+  width: 65%;
+}
+
+.awardimage {
+  padding: 0.5rem 0rem 0.5rem 0;
+  float: left;
+  height: 450px;
+  width: 100%;
+}
+
+.section-2 .flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-2 .flex-container .product-count {
+  padding: 0 2rem 0 2rem;
+}
+
+.product-variety {
+  justify-content: center;
+  padding: 0 8rem 0 8rem;
+  width: 80%;
+}
+
+.section-2 .flex-container .product-name {
+  text-align: center;
+}
+
+.section-3 .flex-container .line-1 {
+  text-align: center;
+  border-top: solid red;
+  padding: 1.5rem 0 0 0;
+}
+
+.section-3 .flex-container .line-2 {
+  padding: 1.5rem 0 0 0;
+  text-align: center;
+}
+
+.section-3 .flex-container .line-2 > red {
+  color: red;
+}
+
+Footer {
+  background-color: hsl(7, 81%, 51%);
+  line-height: 6.5;
+}
+
+.container {
+  flex: 1;
+}
+
+.footer-area .container .social > a {
+  color: aliceblue;
+  font-size: 11px;
+  padding: 12rem;
+}
